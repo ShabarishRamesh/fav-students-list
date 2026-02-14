@@ -33,7 +33,7 @@ const Student = () => {
                         return (
                             <div
                                 key={items.id}
-                                className="p-3 size-1/4 flex flex-col gap-1 justify-center border border-black bg-white rounded-lg relative"
+                                className="p-3 size-full flex flex-col gap-1 justify-center border border-black bg-white rounded-lg relative"
                             >
                                 <button onClick={() => handleDelete(items.id)}
                                     className="absolute top-2 right-2 bg-red-400 border border-black p-1 rounded-lg">
