@@ -26,7 +26,7 @@ const FavStudent = ()=>{
                     Data.favstudentList.map(
                         (items, index) => {
                             return (
-                                <div className="p-3 size-1/4 flex flex-col gap-1 justify-center border border-black bg-white rounded-lg relative">
+                                <div className="p-3 size-full flex flex-col flex-wrap gap-1 justify-center border border-black bg-white rounded-lg relative">
                                     <button onClick={()=>handleDelete(index)} className="absolute top-2 right-2 bg-red-400 border border-black p-1 rounded-lg">delete</button>
                                     <p className="text-3xl mt-2">{items.Name}</p>
                                     <p>{'Student id : '}{items.Roll_no}</p>
